@@ -1,0 +1,26 @@
+.generalErrorScreen {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.generalErrorHeader {
+  justify-content: flex-start;
+  flex: 0 0 auto;
+}
+
+.generalErrorTopMessage {
+  font-weight: bold;
+}
+
+.generalErrorBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.generalErrorBottomMessage {
+  font-size: 12px;
+}
